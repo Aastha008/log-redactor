@@ -1,0 +1,9 @@
+patterns:
+  email: '[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-.]+'
+  credit_card: '\d{4}-\d{4}-\d{4}-\d{4}'
+  jwt: 'eyJ[a-zA-Z0-9_-]{10,}\.[a-zA-Z0-9_-]{10,}\.[a-zA-Z0-9_-]{10,}'
+json_keys:
+  - password
+  - secret
+  - token
+  - authorization
